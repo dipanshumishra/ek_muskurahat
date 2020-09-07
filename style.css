@@ -216,6 +216,7 @@ header nav ul li a:hover
                         {
                             left: 0;
                         }  
+                  
     #check:checked ~ label #btn
                                  {
                                      display: none;
