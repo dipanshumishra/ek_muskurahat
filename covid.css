@@ -260,7 +260,8 @@ header nav ul li a:hover
   .top-covid h2 
                 {
                     word-spacing: 5px;
-                }            
+                }   
+
   
    
                      
@@ -273,7 +274,7 @@ header nav ul li a:hover
  .covid img 
              {
                  width: 140vh!important;
-                 height: 55vh!important;
+                 height: 45vh!important;
                  border-radius: 0 0 20px 20px;
              }
              /*covid end*/
