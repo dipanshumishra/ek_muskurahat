@@ -195,7 +195,7 @@ header nav h3
             top: 110px;
             text-align: center;
             left: -100%;
-            transition: all .8s;
+            transition: all .4s;
         }
 
 header nav ul li 
