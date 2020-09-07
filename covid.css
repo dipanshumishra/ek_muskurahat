@@ -266,9 +266,14 @@ header nav ul li a:hover
                 {
                     width: 140vh!important;
                  border-radius: 0 0 20px 20px;
-                 height: 35vh!important;
+                 height: 30vh!important;
                 }
-   
+.covi2 img             
+             {
+                width: 140vh!important;
+                height: 55vh!important;
+                border-radius: 0 0 20px 20px;
+            }
                      
 }           
 .covi p 
