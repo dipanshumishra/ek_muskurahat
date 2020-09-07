@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link rel='stylesheet' type='text/css' media='screen'href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <title>एक मुस्कराहट </title>
+                           <!--counter scripts -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+   
+</head>
+<body>
+    
+
+<div class="container-fluid top  py-1 ">
+  
+    <div class="social float-right justify-content-right ml-auto">
+        <ul>
+            <li><a href="#">VOLUNTEER</a></li>
+            <li class="mr-3"><a href="#">DONATE</a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-google"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+    
+        </ul>
+    </div>
+</div>
+
+<header class="sticky-top ">
+    <nav >
+        <input type="checkbox" id="check" onclick="show()">
+        <label for="check">
+            <i class="fa fa-bars" id ="btn"></i>
+            <i class="fa fa-times" id="cancel"></i>
+         </label>
+      <h3 class="text-bold animate__animated animate__backInDown" style="animation-duration:1s;">एक मुस्कराहट </h3>
+     <img src="photo/logo.jpg" alt="EK MUSKURAHAT">
+     <ul>
+         <li><a href="#">HOME</a></li>
+         <li><a href="about.html">ABOUT</a></li>
+         <li><a href="covid.html">FIGHT-COVID19</a></li>
+         <li><a href="joinus.php">JOIN US+</a></li>
+         <li><a href="contactus.html">CONTACT US</a></li>
+     </ul>
+    </nav>
+
+<hr style="border-top: 2px solid grey;" class="h-2 m-1">             
+
+</header>
+
+
+                              <!--carusel start-->
+<div class="container-fluid mb-5  caros ">
+   <div id="myCarousel" class="carousel slide " data-interval="3000" data-ride="carousel">
+                                  <!-- Indicators -->
+             <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+             </ol>
+                              
+                                  <!-- Wrapper for slides -->
+                     <div class="carousel-inner">
+                        <div class="item active">
+                             <img src="photo/c1.jpg" class="img-fluid" alt="Los Angeles" style="width:100%;">
+                               <div class="carousel-caption smile" >
+                                  <h2 class="p-1 ">Peace Begin's With a Smile..</h2>
+                                  <a href="#" class="active" style="  background: #00ffff!important;">VOLUNTEER</a>&nbsp;
+                                  <a href="#">DONATE</a>
+                                </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="photo/c2.jpg" alt="New york" style="width:100%;">
+                            <div class="carousel-caption smile" >
+                                <h2 class="p-1 ">Address the cries for help.</h2>
+                                <a href="#" class="active" style="  background: #00ffff!important;">PROGRAMES</a>&nbsp;
+                              </div>
+                       </div> 
+
+                       <div class="item">
+                        <img src="photo/c3.jpg" alt="Chicago" style="width:100%;">
+                        <div class="carousel-caption smile" >
+                         <h2> Educate the poor, don’t hate them</h2>
+                        </div>
+                       </div>
+
+                        <div class="item">
+                            <img src="photo/c4.jpg" alt="New york" style="width:100%;">
+                            <div class="carousel-caption smile" >
+                                <h2 class="p-1 ">Start with a small change today</h2>
+                                <a href="#" class="active" style="  background: #00ffff!important;">DONATE</a>&nbsp;
+
+                            </div>
+                          </div>
+                           
+                             
+                          <div class="item">
+                            <img src="photo/c5.jpg" alt="New york" style="width:100%;">
+                              <div class="carousel-caption smile">
+                                  <h2>Teamwork divides the task and multiplies the success</h2>
+                              </div>
+                          </div>
+                      
+                     </div>
+                              
+                                  <!-- Left and right controls -->
+                     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" style="font-size:6vh;"></span>
+                        <span class="sr-only">Previous</span>
+                     </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" style="font-size:6vh;"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+    </div>
+</div>
+                              <!--carusel end-->
+
+<div class="container text-center reason">
+    <h1>!!..BE THE REASON OF SOMEONE'S SMILE..!!</h1>
+</div>
+
+
+
+                            <!--vision and mission start-->
+   <div class="container my-5 v-mission">
+       <div class="row">
+          
+           <div class=" col-md-4 col-12">
+               <div class="img ">
+                   <img src="photo/v2.jpg" class="img-fluid " alt="let them smile"style="height: 30vh;box-shadow: 10px 10px 5px grey;">
+               </div>
+           </div>
+
+           <div class=" col-md-4 col-12 ">
+            <h1>VISION & MISSION</h1>
+            <p><ins>VISION:</ins></p>
+            <p>To help build a more influential, equal and socially conscious society</p>
+            <p><ins>MISSION:</ins></p>
+            <p><b>EK MUSKURAHAT</b> drives social change by fostering an environment where young adults & children learn, lead and thrive.</p>
+        </div>
+
+
+           <div class=" col-md-4 col-12">
+            <div class="img ">
+                <img src="photo/v1.jpg"  class="img-fluid" alt="let them smile" style="height: 30vh; box-shadow: 10px 10px 5px grey;">
+            </div>
+           </div>
+
+       </div>
+   </div>
+                            
+
+
+
+                            <!--vision and mission end-->
+                                <!--counter start-->
+<div class="container-fluid my-5 text-center counter">
+      <h1 class="num ">53</h1>
+         <h2>VOLUNTEER ENGAGED IN THIS PROGRAME</h2>
+</div>
+                                <!--counter end-->
+
+
+                              <!--join us start-->
+  <div class="containter-fluid register text-center my-5 py-5"style="position:relative;">
+      <img src="photo/reg.jpg" alt="JOIN US" class="img-fluid">
+      <div class="centered text-white">
+          <h3>JOIN US NOW</h3> 
+          <a href="joinus.php" class="active">JOIN US+</a>&nbsp;
+                                  
+    </div>
+  </div>                            
+                              
+                              
+                              <!--join us end-->
+                 <!--footer start-->
+<div class="container-fluid footer">
+    <div class="row ">
+       <div class="col-lg-3 col-md-3 col-12 c1 p-5">
+            <h4>GET IN TOUCH</h4>
+            <p ><strong> ! एक मुस्कराहट !</strong></p>
+             <p1 >Trying our best to <b>HELP</b> the needy ones..!</p1><br></br>
+             <p2 ><strong style="font-size: 16px; color: #fff;">Location :</strong> Jabalpur, Madhya Pradesh 482002</p2>
+                              <br></br>
+             <p3><strong style="font-size: 16px; color: #fff;"></strong>Phone :</strong>12334567890 |
+                                    1234567890</p3><br></br>
+              <p4><strong style="font-size: 16px;color: #fff;" >Email :</strong> ekmuskurahat.org.in<br> 
+ </div>
+                            
+                                    <!--map start-->
+ <div class="col-lg-3 col-md-3 col-12 c2">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231380.27503666273!2d79.8286670109806!3d23.17563314211076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3981ae1a0fb6a97d%3A0x44020616bc43e3b9!2sJabalpur%2C%20Madhya%20Pradesh!5e1!3m2!1sen!2sin!4v1598931031310!5m2!1sen!2sin"
+    width="350" height="450" frameborder="0" style="border:0;" 
+    allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>                     
+                                     <!--map end-->
+                            
+ <div class="col-lg-3 col-md-3 col-12 c3 p-5 text-center">
+         <h3 class="text-center">HELP & SUPPORT</h3> 
+         <p >Contact us </p>
+         <p class="adv"><a href="feedback.php" style="color:#fff;text-decoration:none;border-left:none;">ADVICE</a></p>
+        <div class="social-icons  ">
+           <a href="#"><i class="fa fa-facebook px-2 fa-2x "></i></a>
+           <a href="#"><i class="fa fa-instagram px-2  fa-2x text-white"></i></a>
+           <a href="#"><i class="fa fa-twitter px-2 fa-2x" ></i></a>
+        </div>
+           
+
+ </div>
+                          
+                               
+ <div class="col-lg-3 col-md-3 col-12 c4 p-5 text-center">
+         <h3 class=" text-center " style="font-size: 28px;">! एक मुस्कराहट !</h3> 
+         <img src="photo/logo.jpg" alt="guy" style="width: 30vh; height: 30vh;"><br>
+         <p class="mt-5">“Help those less fortunate than you, for it is real human existence.”</p>
+ </div>  
+                            
+ </div>
+ </div>      
+                                    <!--footer end-->             
+
+                         
+
+
+
+
+
+
+
+
+
+
+
+
+
+                              <!--counter start-->
+<script type="text/javascript">
+         $(".num").counterUp({delay:100,time:800});
+</script>
+  
+                              <!--counter end-->
+                           
+
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+</body>
+</html>
