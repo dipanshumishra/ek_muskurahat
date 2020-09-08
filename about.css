@@ -404,6 +404,10 @@ text-align: left;
                      {
                          color: green;
                      } 
+                     .social-icons .fa-google 
+                           {
+                               color: rgb(190, 41, 41);
+                           } 
     .adv a:hover 
                 {
                     color: grey!important;

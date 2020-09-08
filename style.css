@@ -459,14 +459,18 @@ text-align: left;
                {
                   color: rgb(38, 119, 173)!important;
                }     
-       .social-icons .fa-facebook
+.social-icons .fa-facebook
                       {
                           color: orangered;
                       }       
-                      .social-icons .fa-twitter 
+.social-icons .fa-twitter 
                      {
                          color: green;
                      } 
+.social-icons .fa-google 
+                           {
+                               color: rgb(190, 41, 41);
+                           }                     
     .adv a:hover 
                 {
                     color: grey!important;

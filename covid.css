@@ -251,6 +251,12 @@ header nav ul li a:hover
        justify-content: center;
        align-items: center;
       }
+.top-covid img  
+                 { 
+                    height: 50vh!important;
+                    width: 140vh!important;
+                 }
+                 
 @media (max-width:1080px)
 {
 .top-covid 
@@ -365,6 +371,10 @@ text-align: left;
                       .social-icons .fa-twitter 
                      {
                          color: green;
+                     }
+                      .social-icons .fa-google 
+                     {
+                         color: rgb(190, 41, 41);
                      } 
     .adv a:hover 
                 {
